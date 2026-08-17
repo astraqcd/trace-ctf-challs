@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Handover material this archive was built from. Organizer-only: it carries
+# challenge.json, solution.md and the source briefs, none of which ship here.
+/_unzipped/
+/Athena CTF August.zip
+
+# Night Shift's 752 MB dataset, pulled from Drive for verification. Far too
+# large to commit; it is distributed out of band.
+/night-shift-dataset/

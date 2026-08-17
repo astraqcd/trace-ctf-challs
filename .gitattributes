@@ -1,0 +1,7 @@
+# Player-facing artifacts must reach players byte for byte. trimmu3.png in
+# particular carries an appended zip after its IEND chunk, so keep git's
+# line-ending and text conversion away from every binary artifact.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.avif binary

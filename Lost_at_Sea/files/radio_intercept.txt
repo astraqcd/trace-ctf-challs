@@ -1,0 +1,38 @@
+COASTAL HF/VHF MONITORING LOG  --  STATION 7
+BAND 8 MHz USB / VHF Ch 16 relay
+ALL TIMES UTC
+
+0201  Ch16   routine traffic, fishing vessels, no action
+0214  Ch16   unlisted station calls "PORT AUTHORITY ACTUAL", no response
+0222  8 MHz  same station, carrier only, 40 s
+0233  8 MHz  voice, heavily accented, partial:
+             "... manifest is not on the index any more ... pull the
+             response, not the page ... you have the numbers off her
+             own plate ..."
+0236  8 MHz  station transmits the following, spoken as groups, transcribed
+             by the operator and reassembled below
+
+--- BEGIN TRANSMISSION ---
+Zg6+Jb1eW8z3H3zyJKFG9QNvPXrzFK1SfwwSr+0R+uwjMa94b6WTGEGFASsBPnCK+1nI3RKKRUJ/
+lQgnM498Akfamy3JOrTnkieIHJKN2jref6E+KtI0ncHKZ1/MIBN+dgT2dTrAKZHb7vIHz1mbrFmA
+3rhgjnl7QH4K/7wDbf6444QhiXJY34rZXtOAu32qghC+ncDVyTJ6/rltFJS3CMPuZKebCiu8ICDK
+x/f0e4Xk1O1gJzBuVHhcROewU63ZIsvVcnefQ/dzeyWw1eZ0GMMRG1GtOsYrDQy1NFYMLSpPG1IZ
+zIvSK8nyXjTESZi6rOHhZNsMHosobNuyaTikKXAZXQer6DurTNg6jFQhv3G3GSAFqZY05ROoFf6d
+MKOlCXbAqduaW+STb3QezOKoV3I66ft36QwldiHLQSh/ouOf0dedTTp6tF5Y3KhvWx2xmfX84tpL
+wUnzuAovVv8W1xQQ6FVZq8FBAvEmteRLCPkzb0s+sUtO5kgYWIyvbx3mTMThBpSCoTiD1nI+7Te9
+P3rL1qQGK4AM1Zlftdv9i4/KpyDqtgoDLMfCBpgFj6U4b0dXysybv4yYQSg/w7yTQA==
+--- END TRANSMISSION ---
+
+0241  8 MHz  station adds, in clear, apparently for the receiving operator:
+
+             "KEY = MMSI_SOG"
+             "MMSI as printed. SOG in knots, one decimal. Underscore between."
+             "AES-256-CBC. Key is the SHA-256 of that string. IV is the
+              first sixteen bytes. Base64 above."
+
+0243  8 MHz  carrier drops, no further traffic
+0310  Ch16   routine traffic resumes
+
+OPERATOR NOTE: station made no attempt to conceal the method, only the key.
+Whoever it was expected the receiving end to already have the vessel's
+particulars in front of them.
